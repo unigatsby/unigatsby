@@ -1,0 +1,28 @@
+{
+  "name": "@unigatsby/blog",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Lorem",
+  "author": "Alex Luong <alex@alexluong.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unigatsby/unigatsby.git",
+    "directory": "packages/blog"
+  },
+  "homepage": "https://github.com/unigatsby/unigatsby/tree/master/packages/blog#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "unigatsby",
+    "blog"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "gatsby": "2.x",
+    "react": "16.8.x",
+    "react-dom": "16.8.x"
+  }
+}

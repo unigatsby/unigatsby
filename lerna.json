@@ -1,0 +1,17 @@
+{
+  "command": {
+    "create": {
+      "license": "MIT"
+    },
+    "publish": {
+      "allowBranch": "master",
+      "bump": "patch",
+      "conventionalCommits": true,
+      "message": "chore(release): Publish"
+    }
+  },
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent"
+}

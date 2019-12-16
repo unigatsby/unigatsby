@@ -1,0 +1,27 @@
+{
+  "name": "@unigatsby/core",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Lorem",
+  "author": "Alex Luong <alex@alexluong.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unigatsby/unigatsby.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/unigatsby/unigatsby/tree/master/packages/core#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "unigatsby"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "gatsby": "2.x",
+    "react": "16.8.x",
+    "react-dom": "16.8.x"
+  }
+}

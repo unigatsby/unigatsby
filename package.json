@@ -1,0 +1,24 @@
+{
+  "name": "unigatsby",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
