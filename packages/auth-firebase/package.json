@@ -1,0 +1,34 @@
+{
+  "name": "@unigatsby/auth-firebase",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Lorem",
+  "author": "Alex Luong <alex@alexluong.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unigatsby/unigatsby.git",
+    "directory": "packages/auth-ui"
+  },
+  "homepage": "https://github.com/unigatsby/unigatsby/tree/master/packages/auth-ui#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "unigatsby",
+    "authentication",
+    "firebase"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "@unigatsby/auth": ">=0.0.1",
+    "firebase": ">=7.x",
+    "gatsby": ">=2.x",
+    "gatsby-plugin-firebase": ">=0.2",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  }
+}
