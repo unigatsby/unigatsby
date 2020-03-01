@@ -4,21 +4,28 @@
   "license": "MIT",
   "workspaces": [
     "packages/*",
-    "sites/*"
+    "examples/*"
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "publish": "lerna publish"
   },
   "devDependencies": {
-    "husky": "^3.1.0",
-    "lerna": "^3.19.0",
+    "commitizen": "^4.0.3",
+    "git-cz": "^4.3.1",
+    "husky": "^4.2.3",
+    "lerna": "^3.20.2",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
     }
   }
 }

@@ -20,8 +20,16 @@
     "access": "public"
   },
   "peerDependencies": {
-    "gatsby": "2.x",
-    "react": "16.8.x",
-    "react-dom": "16.8.x"
+    "gatsby": ">=2.x",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
+  },
+  "dependencies": {
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-typescript": "^2.1.27",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/theme-ui": "^0.3.0"
   }
 }
