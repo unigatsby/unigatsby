@@ -21,8 +21,8 @@
     "access": "public"
   },
   "peerDependencies": {
-    "gatsby": "2.x",
-    "react": "16.8.x",
-    "react-dom": "16.8.x"
+    "gatsby": ">=2.x",
+    "react": ">=16.8.x",
+    "react-dom": ">=16.8.x"
   }
 }
